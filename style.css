@@ -1,13 +1,43 @@
+/* Content Style */
 body {
     background-color: #D6DBB2;
     justify-content: space-between;
     min-height: 100vh;
 }
+h1 {
+    text-align: center;
+    margin: 4%;
+}
+
+.page-title {
+    border-bottom: solid 0.25rem #371B35;
+}
+
+h2 {
+    text-align: center;
+    padding: 3%;
+}
+
+.back-drop {
+    background-color: white;
+    padding: 3%;
+    text-align: center;
+    border-radius: 2rem;
+}
+/* Nav Bar */
 nav {
     background-color: #371B35; color: white;
     justify-content: space-between;
     width: 100%;
     height: 10vh;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #E3D985
 }
 ul {
     padding-right: 1%;
@@ -17,17 +47,25 @@ ul {
     width: 10%;
     height: auto;
 }
-h1 {
-    text-align: center;
-    margin: 4%;
+/* Footer Style */
+footer {
+    background-color: #371B35;
+    margin: 0;
+    margin-top: 4%;
+    align-items: center;
+    color: white;
 }
-.page-title { 
-    border-bottom: solid 0.25rem #371B35;
+
+.contact {
+    margin: auto 1rem;
 }
-h2 {
-    text-align: center;
-    padding: 3%;
+
+i {
+    font-size: 2rem;
+    margin: auto;
+    color: #2DD0F0;
 }
+/* Home Page */
 .self-pic {
     border: solid 3px #371B35;
     border-radius: 30rem;
@@ -50,19 +88,7 @@ h2 {
     width: 20%;
     height: 20%;
 }
-.back-drop {
-    background-color: white;
-    padding: 3%;
-    text-align: center;
-    border-radius: 2rem;
-}
-a {
-    text-decoration: none;
-    color: white;
-}
-.nav-link:hover {
-    color: #E3D985
-}
+/* projects page */
 .proj-cont {
     margin: auto;
     margin-bottom: 3%;
@@ -82,19 +108,4 @@ a {
 }
 .proj-img:hover {
     border-color: #2DD0F0;
-}
-footer {
-    background-color: #371B35;
-    margin: 0;
-    margin-top: 4%;
-    align-items: center;
-    color: white;
-}
-.contact {
-    margin: auto 1rem;
-}
-i {
-    font-size: 2rem;
-    margin: auto;
-    color: #2DD0F0;
 }
